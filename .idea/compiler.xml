@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="modular_monolith.ai.test" />
+        <module name="modular_monolith.app.main" />
+        <module name="modular_monolith.app.domain.test" />
+        <module name="modular_monolith.app.data.main" />
+        <module name="modular_monolith.app.test" />
+        <module name="modular_monolith.app.ai-adaptor.test" />
+        <module name="modular_monolith.indexation.main" />
+        <module name="modular_monolith.indexation.test" />
+        <module name="modular_monolith.app.controller.main" />
+        <module name="modular_monolith.ai.main" />
+        <module name="modular_monolith.app.data.test" />
+        <module name="modular_monolith.app.domain.main" />
+        <module name="modular_monolith.app.ai-adaptor.main" />
+        <module name="modular_monolith.indexation.entities.test" />
+        <module name="modular_monolith.app.controller.test" />
+        <module name="modular_monolith.indexation.entities.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+resilience4j:
+  circuitbreaker:
+    instances:
+      cb-user-sort-call:
+        failure-rate-threshold: 60  #The Threshold Percentage Above Which the Circuit Breaker will move from Closed to Open State.
+        wait-duration-in-open-state: 5000  #Time in milliseconds, in which the circuit breaker is to stay in open state before moving to half-open state
+        permitted-number-of-calls-in-half-open-state: 10
+        minimum-number-of-calls: 10  #The number of calls after which the error rate is calculated.
+        slowCallRateThreshold: 50
+        slowCallDurationThreshold: 500

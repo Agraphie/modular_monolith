@@ -1,0 +1,4 @@
+spring:
+  redis:
+    timeout: 3000
+    port: 16379

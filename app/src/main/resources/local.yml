@@ -1,0 +1,6 @@
+# File for overwriting configurations
+spring:
+  config.activate.on-profile: local
+  redis:
+    timeout: 3000
+    port: 1122
